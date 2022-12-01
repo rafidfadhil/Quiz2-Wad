@@ -673,10 +673,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //footer -->
     <div class="copyright">
         <div class="container">
-            <p>© <?php echo date('Y');?> MAGIC LAUNDRY. All rights reserved | Design by <a href="">Rafid Fadhil/a>
-                    Repost
-                    by
-                    <a href="https://stokcoding.com/" title="StokCoding.com" target="_blank">StokCoding.com</a>
+            <p>© <?php echo date('Y');?> MAGIC LAUNDRY. All rights reserved | Design by <a href="">Rafid Fadhil </a>
+                visit account
+                <a href="https://www.instagram.com/rafidfadhill/" title="StokCoding.com" target="_blank">instagram</a>
             </p>
         </div>
     </div>
