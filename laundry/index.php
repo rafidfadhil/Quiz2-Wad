@@ -664,7 +664,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
 
                 <div class="col-md-3 wthree_fr">
-                    <h6>+92 308 4384589</h6>
+                    <h6>+628 5263288387</h6>
                     <h6><a href="mailto:service@decorate.com">MAGIC LAUNDRY@Gmail.com</a></h6>
                 </div>
             </div>
