@@ -39,13 +39,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link
         href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext"
         rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Sintony:400,700&amp;subset=latin-ext" rel="stylesheet">
 
 </head>
-<style type="text/css">
+<style>
 /* Social Icons */
 #social_side_links {
     position: fixed;
@@ -59,6 +59,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 #social_side_links li a {
     display: block;
     padding: 5px 5px 5px 5px;
+}
+
+/* .wash {
+    width: 100%;
+    height: 15px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    animation: wash 4s;
+} */
+
+@keyframes wash {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
 }
 </style>
 
@@ -320,14 +339,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>
                     <h4>WASH & F0LD</h4>
                     <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the in industry.</p> -->
+                    <div class="progress-bar" style="width: 100%; background:white; height: 20px; border:none;">
+                        <div class="wash"
+                            style="width: 100%;height: 20px;background-color: #009688;border-radius: 5px;border: none;animation: wash 3s;">
+                            100%
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 hhh">
                 <div class="wthree_rt">
                     <i class="fa fa-assistive-listening-systems" aria-hidden="true"></i>
-                    <a href="">
-                        <h4>DRY CLEANING</h4>
-                    </a>
+                    <h4>DRY CLEANING</h4>
+                    <div class="progress-bar" style="width: 100%; background:white; height: 20px; border:none;">
+                        <div class="wash"
+                            style="width: 100%;height: 20px;background-color: #009688;border-radius: 5px;border: none;animation: wash 3s;">
+                            100%
+                        </div>
+                    </div>
                     <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the in industry.</p> -->
                 </div>
             </div>
@@ -336,6 +365,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="wthree_rt">
                     <i class="fa fa-bolt" aria-hidden="true"></i>
                     <h4>IRON/PRESS</h4>
+                    <div class="progress-bar" style="width: 100%; background:white; height: 20px; border:none;">
+                        <div class="wash"
+                            style="width: 100%;height: 20px;background-color: #009688;border-radius: 5px;border: none;animation: wash 3s;">
+                            100%
+                        </div>
+                    </div>
                     <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the in industry.</p> -->
                 </div>
             </div>
@@ -573,8 +608,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                     </div>
                     <div class="map-grid">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3399.2510794154396!2d74.30200701463221!3d31.572161951742867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCourt+Street+2+Lower+Mall+Lahore!5e0!3m2!1sen!2s!4v1541060521711"
+                        <iframe src="https://maps.google.com/maps?q=telkom&t=&z=13&ie=UTF8&iwloc=&output=embed"
                             width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                     </div>
