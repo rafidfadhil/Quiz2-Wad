@@ -1,4 +1,3 @@
-
 <?php 
  $title='Login';
  // error_reporting(0);
@@ -30,53 +29,57 @@ if(isset($_POST['login']))
 
 
 <body class="bg-dark">
-  <div class="container">
-    <div class="card card-login mx-auto mt-5">
-      <div class="card-header">Admin Login</div>
-      <div class="card-body">
-        <form action="" method="post"  >
-          <?php if(isset($valid) && $valid == false) { ?>
-                  
-                         <div class="alert alert-warning alert-dismissible text-center">
-                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                            <strong>Invalid!</strong> Username or Password
-                        </div>
-                    
-                    <?php } ?>
-          <div class="form-group">
-            <label for="exampleInputEmail1">User Name</label>
-            <input class="form-control" id="exampleInputEmail1" name="A_NAME" type="text" aria-describedby="emailHelp" placeholder="Enter User name" required="">
-          </div>
+    <div class="container">
+        <div class="card card-login mx-auto mt-5">
+            <div class="card-header">Admin Login</div>
+            <div class="card-body">
+                <form action="" method="post">
+                    <?php if(isset($valid) && $valid == false) { ?>
 
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input class="form-control" id="exampleInputPassword1" required="" name="A_PASSWORD" type="password" placeholder="Password">
-          </div>
-          <div class="form-group">
-            <div class="form-check">
-              <label class="form-check-label">
-                <input class="form-check-input" type="checkbox"> Remember Password</label>
-            </div>
-          </div>
-          <button type="submit" name="login" class="btn btn-primary btn-block">
-                  Sign in
-                </button>
-         
-        </form>
-        <div class="text-center"><!-- 
+                    <div class="alert alert-warning alert-dismissible text-center">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong>Invalid!</strong> Username or Password
+                    </div>
+
+                    <?php } ?>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">User Name</label>
+                        <input class="form-control" id="exampleInputEmail1" name="A_NAME" type="text"
+                            aria-describedby="emailHelp" placeholder="Enter User name" required="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input class="form-control" id="exampleInputPassword1" required="" name="A_PASSWORD"
+                            type="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> Remember Password</label>
+                        </div>
+                    </div>
+                    <button type="submit" name="login" class="btn btn-primary btn-block">
+                        Sign in
+                    </button>
+
+                </form>
+                <div class="text-center">
+                    <!-- 
           <a class="d-block small mt-3" href="register.html">Register an Account</a> -->
-          <br>
-		  <p>Repost by <a href="https://stokcoding.com/" title="StokCoding.com" target="_blank">StokCoding.com</a></p>
-          <!-- <a class="d-block small" href="forgot-password.html">Forgot Password?</a> -->
+                    <br>
+                    <p>Repost by <a href="https://stokcoding.com/" title="StokCoding.com"
+                            target="_blank">StokCoding.com</a></p>
+                    <!-- <a class="d-block small" href="forgot-password.html">Forgot Password?</a> -->
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 </body>
 
 </html>

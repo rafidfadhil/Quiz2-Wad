@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         href="mailto:MAGIC LAUNDRY @Gmail.com">magiclaundry@Gmail.com</a>
                 </div>
                 <div class="col-md-6 w3_c">
-                    <i class="fa fa-phone" aria-hidden="true"></i> +92 308 4384589
+                    <i class="fa fa-phone" aria-hidden="true"></i> +62 85263288387
                 </div>
                 <div class="col-md-3 w3_r">
                     <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -134,7 +134,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <h3>Washing Clothes</h3>
             <div class="agile_dwng">
-                <a href="#" data-toggle="modal" data-target="#myModal">Read More </a>
+                <a href="#" data-toggle="modal" data-target="#myModal">Baca selengkapnya </a>
                 <div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -639,9 +639,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //footer -->
     <div class="copyright">
         <div class="container">
-            <p>© <?php echo date('Y');?> MAGIC LAUNDRY. All rights reserved | Design by <a href="">M.Ibrahim</a> Repost
-                by
-                <a href="https://stokcoding.com/" title="StokCoding.com" target="_blank">StokCoding.com</a>
+            <p>© <?php echo date('Y');?> MAGIC LAUNDRY. All rights reserved | Design by <a href="">Rafid Fadhil/a>
+                    Repost
+                    by
+                    <a href="https://stokcoding.com/" title="StokCoding.com" target="_blank">StokCoding.com</a>
             </p>
         </div>
     </div>
