@@ -28,7 +28,8 @@ if(isset($_POST['login']))
 
 
 
-<body class="bg-dark">
+<body class="bg-dark"
+    style="background-image: url(https://t4.ftcdn.net/jpg/04/04/40/49/360_F_404404954_WGYZtTwswIrXnJl6qVeEFK5UWPFflVB8.jpg);">
     <div class="container">
         <div class="card card-login mx-auto mt-5">
             <div class="card-header">Admin Login</div>
@@ -68,8 +69,9 @@ if(isset($_POST['login']))
                     <!-- 
           <a class="d-block small mt-3" href="register.html">Register an Account</a> -->
                     <br>
-                    <p>Repost by <a href="https://stokcoding.com/" title="StokCoding.com"
-                            target="_blank">StokCoding.com</a></p>
+                    <p>login Sebagai
+                        <a href="../Login.php" title="user" target="_blank">user</a>
+                    </p>
                     <!-- <a class="d-block small" href="forgot-password.html">Forgot Password?</a> -->
                 </div>
             </div>

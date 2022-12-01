@@ -4,7 +4,8 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Customer Name :
-                    <strong><?php echo  $USer_NAME;?></strong></h5>
+                    <strong><?php echo  $USer_NAME;?></strong>
+                </h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <!-- <span aria-hidden="true">×</span> -->
                 </button>
@@ -17,6 +18,7 @@
                     <option disabled=""> Change Status </option>
                     <option value="Pick Up"> Pick Up </option>
                     <option value="Deliver"> Deliver </option>
+                    <option value="Selesai"> Selesai </option>
 
                 </select>
             </div>

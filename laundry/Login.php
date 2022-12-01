@@ -45,7 +45,8 @@ if(isset($_POST['login']))
     </style>
 </head>
 
-<body>
+<body
+    style="background-image: url(https://static.vecteezy.com/system/resources/previews/001/431/920/original/abstract-green-background-free-vector.jpg);">
 
     <div class="container">
         <div class="modal fade" id="myModal" role="dialog">
@@ -82,6 +83,7 @@ if(isset($_POST['login']))
                         </form>
                     </div>
                     <div class="modal-footer">
+                        <p>login Sebagai <a href="../laundry/admin_portal/login.php">Admin</a></p>
                         <p>Not a member? <a href="Registration.php">New Registration</a></p>
                         <!--     <p>Forgot <a href="#">Password?</a></p> -->
                     </div>

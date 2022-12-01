@@ -56,7 +56,9 @@ if(isset($_POST['submit'])){
     </style>
 </head>
 
-<body>
+<body
+    style="background-image: url(https://static.vecteezy.com/system/resources/previews/001/431/920/original/abstract-green-background-free-vector.jpg);">
+    >
     <div class="container">
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
