@@ -164,8 +164,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="modal-body">
                                 <iframe src="https://www.youtube.com/embed/3TOV4ZNXJ9s" width="560" height="300"
                                     allow="autoplay" frameborder="0"></iframe>
-                                <p>Jaringan kami masih terus berkembang. Saat ini, kami beroperasi di bidang utama
-                                    Lahore dan segera kami akan menyebarkan cucian bersih ke seluruh kota.
+                                <p>Jaringan kami masih terus berkembang. Saat ini, kami beroperasi di kota
+                                    Bandung dan segera kami akan menyebarkan cucian bersih ke seluruh kota.
                                     Magic Laundry ada di sini untuk menghemat waktu berharga Anda dan melepaskan beban
                                     dari pundak Anda,
                                     secara harfiah. Ini adalah layanan laundry dan dry-cleaning berdasarkan permintaan.
@@ -599,7 +599,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!--/Testimonials-->
     <!-- contact -->
 
-    <div class="contact" id="contact">
+    <!-- <div class="contact" id="contact">
         <div class="container">
             <div class="agile-contact-grids">
                 <h3>Contact</h3>
@@ -645,7 +645,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="clearfix"> </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- //contact -->
 
     <br>
